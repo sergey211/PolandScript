@@ -68,8 +68,8 @@ if (post1) {
     // Payload Form Data
 
     List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-    nvps.add(new BasicNameValuePair("username", "kirmaxik@mail.ru"));
-    nvps.add(new BasicNameValuePair("password", "!GRUppa104"));
+    nvps.add(new BasicNameValuePair("username", ""));
+    nvps.add(new BasicNameValuePair("password", ""));
     nvps.add(new BasicNameValuePair("missioncode", "ltu"));
     nvps.add(new BasicNameValuePair("countrycode", "blr"));
     //   httpost.setEntity(new UrlEncodedFormEntity(nvps, StandardCharsets.UTF_8));
