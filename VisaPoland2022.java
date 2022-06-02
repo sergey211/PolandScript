@@ -62,10 +62,10 @@ public class VisaPoland2022 {
 
     //            driver.findElement(By.id("mat-input-0")).click();
     //            driver.findElement(By.id("mat-input-1")).clear();
-                driver.findElement(By.xpath("//*[contains(@formcontrolname, 'password')]")).sendKeys("!GRUppa104");
+                driver.findElement(By.xpath("//*[contains(@formcontrolname, 'password')]")).sendKeys("");
     //            driver.findElement(By.id("mat-input-0")).clear();
-                    driver.findElement(By.id("mat-input-0")).sendKeys("sergey211@gmail.com"); // ТОЛЬКО ПОЛЬША
-               // driver.findElement(By.xpath("//*[contains(@formcontrolname, 'username')]")).sendKeys("kirmaxik@mail.ru"); // ПОЛЬША И ЛИТВА
+                    driver.findElement(By.id("mat-input-0")).sendKeys(""); // ТОЛЬКО ПОЛЬША
+               // driver.findElement(By.xpath("//*[contains(@formcontrolname, 'username')]")).sendKeys(""); // ПОЛЬША И ЛИТВА
                 driver.findElement(By.xpath("//i")).click();
                 driver.findElement(By.xpath("//form/button")).click();
                 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
