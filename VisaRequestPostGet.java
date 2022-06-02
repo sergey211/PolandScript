@@ -69,7 +69,7 @@ public class VisaRequestPostGet {
        request.addHeader("countryCode", "blr");
         request.addHeader("missionCode", "ltu");
         request.addHeader("centerCode", "BRS");
-        request.addHeader("loginUser", "kirmaxik%40mail.ru");
+        request.addHeader("loginUser", "");
         request.addHeader("visaCategoryCode", "SS");
         request.addHeader("languageCode", "ru-RU");
         request.addHeader("applicantsCount", "1");
