@@ -161,9 +161,9 @@ public class VisaHungary2022April {
 
         }
 
-        driver.findElement(By.id("EmailId")).sendKeys("kirmaxik@mail.ru");
-     //      driver.findElement(By.id("EmailId")).sendKeys("sergey211@gmail.com");
-        driver.findElement(By.id("Password")).sendKeys("!GRUppa104");
+        driver.findElement(By.id("EmailId")).sendKeys("");
+     //      driver.findElement(By.id("EmailId")).sendKeys("");
+        driver.findElement(By.id("Password")).sendKeys("");
 
         System.out.println("Ждем 50 сек для ввода капчи и входа");
         Sound.playSound("c://visa//sound//kap.wav").join();
